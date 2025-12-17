@@ -1,10 +1,11 @@
 package com.ing.zoo.animals;
 
+import com.ing.zoo.interfaces.TrickPerformer;
 import com.ing.zoo.interfaces.consumers.Carnivore;
 
 import java.util.Random;
 
-public class Tiger extends Animal implements Carnivore {
+public class Tiger extends Animal implements Carnivore, TrickPerformer {
     public String name;
     public String helloText;
     public String eatText;
